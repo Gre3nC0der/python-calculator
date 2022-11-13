@@ -1,0 +1,37 @@
+calc = input("What operation would you like to do? (A/S/M/D) ")
+  
+if calc == "A":
+   print()
+   first_num = int(input("Enter first number: "))
+   second_num = int(input("Enter second number: "))
+   sum = first_num + second_num
+   print()
+   print(sum)
+
+elif calc == "S":
+   print()
+   first_num = int(input("Enter first number: "))
+   second_num = int(input("Enter second number: "))
+   diff = first_num - second_num
+   print()
+   print(diff)
+
+elif calc == "M":
+   print()
+   first_num = int(input("Enter first number: "))
+   second_num = int(input("Enter second number: "))
+   mult = first_num * second_num
+   print()
+   print(mult)
+
+elif calc == "D":
+   print()
+   first_num = int(input("Enter first number: "))
+   second_num = int(input("Enter second number: "))
+   quot = first_num / second_num
+   print()
+   print(quot)
+
+else:
+   print()
+   print("Invalid operation. Please try again.")
